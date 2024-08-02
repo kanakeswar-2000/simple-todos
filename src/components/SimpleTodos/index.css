@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+.card-container {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.heading {
+  color: orange;
+}
+.todos-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
